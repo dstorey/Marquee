@@ -1,0 +1,67 @@
+﻿/*
+	Colours:
+	
+		Backgrounds:
+			primary:		#e7e6e4
+			secondary:		#fafafa
+			
+		Text:
+			copy:			#474747
+			
+		Highlights:	
+			copper: 		#B87333
+			light copper:	#DA8A67 (not used yet)
+			patina:			#639A8F
+			http://simple.wikipedia.org/wiki/Copper_(color)			
+*/ 
+
+/* 
+ *	COMMON STYLES AND INITIAL SETUP
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+	font-family: "Gentium Book Basic", serif;
+	font-size: 0.625rem; /* old browsers will ignore and not reset font size */
+	
+	color: #474747;
+	background-color: #fafafa; 
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+/*
+ * CONTROLS: Push button
+ */
+
+button.push {
+	display: block;
+
+ 	margin: 5.2rem auto 0;
+ 	border: 5px solid;
+ 	padding: 1.3rem 5.2rem;
+ 	background: transparent;
+ 	
+ 	color: #fff;
+ 	font-family: futura, serif; /* Need to replace Futura */
+ 	font-size: 2.6rem;
+	text-align: center;
+	text-transform: uppercase;
+ }
+ 
+button.push:hover {
+ 	cursor: pointer;
+ 	background-color: #639A8F;
+ 	border-color: #639A8F;
+ }
+ 
+button.push a {
+ 	color: inherit;
+ 	text-decoration: none;
+}
