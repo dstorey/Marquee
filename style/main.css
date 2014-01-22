@@ -195,3 +195,16 @@ nav li:nth-of-type(3) {
  	
  	text-shadow: none;
 }
+
+ /*
+  * JOIN section
+  */
+  
+#join {
+ 	background-color: #515957; 
+ 	padding: 5.6rem 0;
+}
+
+#join .push  {
+	 margin: 0 auto;
+ }
