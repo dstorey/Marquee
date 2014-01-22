@@ -138,3 +138,60 @@ nav li:nth-of-type(2) {
 nav li:nth-of-type(3) {
     margin-left: 147px;
 }
+
+/*
+ *	HERO AREA
+ */
+ 
+#hero {
+    background-color: #222;
+    background:  -webkit-linear-gradient(rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, .7) 90%), url("../images/backgrounds/main.jpg") no-repeat top center #222;
+ 	background:  linear-gradient(rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, .7) 90%), url("../images/backgrounds/main.jpg") no-repeat top center #222;
+    background-attachment: fixed;
+    
+    padding: 5em 0;
+    padding-top: 158px;
+
+    color: #eee;
+    text-align: center;
+}
+
+#hero h1 {
+	margin: 1.75em auto 0 auto;
+
+	/* Need to decide on a font we can use */
+	font-family: serif;
+	font-size: 62px;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 1.3;
+
+	text-shadow: 2px 1px 0 rgba(102, 102, 102, .8);
+ }
+ 
+.hero-subtitle {
+	display: inline-block;
+ 	
+ 	border-bottom: 3px double #DA8A67; 
+ 	margin: .5em 0;
+	padding: .35em 0;
+	
+	font-family: "TradeGothic", sans-serif;
+ 	font-size: 1.8rem;
+ 	text-transform: uppercase;
+ 
+ 	text-shadow: 1px 1px 0 rgba(102, 102, 102, .9);
+}
+ 
+.hero-subtitle span { 
+ 	position: relative; 
+ 	top: 2px; 
+ 	
+ 	font-family: "baskerville", "constantia", "palatino", georgia; 
+ 	font-style: italic; 
+ 	font-weight: 100; 
+ 	font-size: 2.6rem; 	
+ 	line-height: 0; 
+ 	
+ 	text-shadow: none;
+}
