@@ -303,6 +303,53 @@ footer p:nth-of-type(2) {
  }
  
  /*
+  * ABOUT section
+  */
+
+#about {
+ 	padding: 19rem;
+ 	background-color: white;
+ 	
+ 	font-size: 1.9rem;
+ 	line-height: 1.5;
+ 	
+ 	-webkit-hyphens: auto;
+ 	hyphens: auto;
+}
+ 
+#about p + p {
+ 	margin-top: 2.8rem;
+}
+ 
+#about h2 {
+	margin-bottom: 1rem;
+
+	color: #555;
+ 	font-family: serif; /* Need to add font */
+ 	font-style: italic;
+ 	font-weight: normal;
+ 	font-size: 3.2rem;
+}
+ 
+#about i {
+  	 -webkit-hyphens: none;
+  	 hyphens: none;
+}
+
+#about small {
+  	color: #999;
+}
+ 
+#about a {
+ 	margin-top: 1.6rem;
+ 	
+ 	color: #91b3a3;
+ 	font-size: 1.6rem;
+ 	font-family: futura; /* need to change */
+ 	text-decoration: none;
+}
+ 
+ /*
   * JOIN section
   */
   
