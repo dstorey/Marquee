@@ -196,6 +196,112 @@ nav li:nth-of-type(3) {
  	text-shadow: none;
 }
 
+/*
+ * FOOTER
+ */
+ 
+footer {
+	border-top: 3px solid #DA8A67; 
+ 	padding: 4.2rem 3.6rem 10.8rem;
+ 	
+	color: #eee; 
+ 	background-color: #212524;
+ 	
+ 	font-size: 1.8rem;
+}
+
+footer a {
+	color: inherit;
+	text-decoration: none;
+}
+
+footer p:first-of-type {
+	position: relative;
+	display: inline-block;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-left: 47px; /* space for Logo */
+}
+
+footer .home-link::before {
+	position: absolute;
+	top: -7px;
+	left: 0;
+	
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	
+	background: url("../images/logo/tmc-mark-pos-sm.png") no-repeat left center;
+	content: " ";	
+}
+
+footer .home-link::after {
+	content: " •";
+	color: #DA8A67;
+}
+ 
+footer ul {
+ 	float: right;
+ 	margin: 0;
+ 	text-transform: uppercase;
+ 	font-size: 1.5rem;
+}
+ 
+footer li {
+ 	display: inline-block;
+}
+ 
+#footer-nav li + li::before {
+    color: #DA8A67;
+    content: " | ";
+    font-weight: bold;
+}
+
+footer p:nth-of-type(2), footer .copyright {
+    display: block; 
+    padding-left: 4.5rem;
+    
+    color: dimgrey;
+    font-family: futura, "FuturaMedium"; /* need to replace */
+    font-size: 1.3rem;
+    line-height: 1.7;
+	
+}
+footer p:nth-of-type(2) {
+	margin-top: 5.1rem;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+}
+
+.social {
+ 	position: relative;
+ 	top: -4.5rem;
+ 	letter-spacing: 1px;
+}
+
+.social a {
+	/* Hide the text, and replace with an image */
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+    
+    width: 30px;
+    height: 24px;
+    padding-left: 2px;
+    display: inline-block;
+}
+
+.social .twitter {
+ 	background: url("../images/social/twitter.png") no-repeat left center;
+ }
+ 
+ .social .facebook {
+ 	background: url("../images/social/facebook.png") no-repeat left center;
+ }
+ 
  /*
   * JOIN section
   */
