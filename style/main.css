@@ -54,7 +54,7 @@ abbr {
 
 section ul li {
 	list-style-type: none;
-	margin-left: -.5em;
+	margin-left: -.7em;
 }
 
 section ul li::before {
@@ -62,7 +62,7 @@ section ul li::before {
   	color: #DA8A67;
   	position: relative;
   	left: -.75em;
-  	line-height: 1.5;
+  	line-height: 1.7;
 }
 
 /*
@@ -78,7 +78,7 @@ button.push {
  	background: transparent;
  	
  	color: #fff;
- 	font-family: futura, serif; /* Need to replace Futura */
+ 	font-family: "Sanchez", serif; /* Need to replace Futura */
  	font-size: 2.6rem;
 	text-align: center;
 	text-transform: uppercase;
@@ -104,7 +104,7 @@ header {
     width: 100%;
     padding: 2rem 0;
     
-    font-family: futura, sans-serif;
+    font-family: "Sanchez", futura, sans-serif;
 }
 
 header h1 {
@@ -112,7 +112,7 @@ header h1 {
     left: 50%;
     
     /* Set width and height as px as img is bitmap */
-    width: 182px;
+    width: 183px;
     height: 60px;
     margin-left: -91px; /* move replaced image to centre */
     padding: 16px 0;
@@ -135,16 +135,17 @@ nav ul {
 nav li {
     display: inline-block;
     width: 15%;
-    max-width: 182px; /* width of logo */
+    max-width: 152px; /* width of logo */
     height: 100%;
+    padding: 0 15px;
 }
 
 nav li a {
     display: inline-block;
 	
 	width: 100%;
-    margin: .9rem 0;
-    padding: 2rem 0;
+    margin: 1.9rem 0;
+    padding: 1rem 0;
         
     color: #DA8A67;
 	text-shadow: 2px 1px 0 rgba(102, 102, 102, .9);   
@@ -154,9 +155,10 @@ nav li a {
 }
 
 nav li a:hover {	
-	background-color: white;	
-	color: #639A8F;
-	text-shadow: none;
+	padding-bottom: 2.9rem;
+	
+	border-bottom: 5px solid #DA8A67;
+	box-shadow: 0 2px rgba(102, 102, 102, .9);
 }
 
 /* Make space for the logo in the centre */
@@ -189,7 +191,7 @@ nav li:nth-of-type(3) {
 	margin: 1.75em auto 0 auto;
 
 	/* Need to decide on a font we can use */
-	font-family: serif;
+	font-family: "Playfair Display", serif;
 	font-size: 62px;
 	font-style: italic;
 	font-weight: normal;
@@ -205,7 +207,7 @@ nav li:nth-of-type(3) {
  	margin: .5em 0;
 	padding: .35em 0;
 	
-	font-family: "TradeGothic", sans-serif;
+	font-family: Sanchez, sans-serif;
  	font-size: 1.8rem;
  	text-transform: uppercase;
  
@@ -293,7 +295,8 @@ footer p:nth-of-type(2), footer .copyright {
     padding-left: 4.5rem;
     
     color: dimgrey;
-    font-family: futura, "FuturaMedium"; /* need to replace */
+    font-family: Sanchez, serif; 
+    letter-spacing: 1px;
     font-size: 1.3rem;
     line-height: 1.7;
 	
@@ -354,8 +357,7 @@ footer p:nth-of-type(2) {
 	margin-bottom: 1rem;
 
 	color: #555;
- 	font-family: serif; /* Need to add font */
- 	font-style: italic;
+ 	font-family: "Playfair Display", serif; 
  	font-weight: normal;
  	font-size: 3.2rem;
 }
@@ -389,7 +391,7 @@ footer p:nth-of-type(2) {
  	color: white;
  	
  	font-size: 1.9rem;
- 	line-height: 1.5;
+ 	line-height: 1.7;
  	
  	-webkit-hyphens: auto;
  	hyphens: auto;
@@ -397,46 +399,45 @@ footer p:nth-of-type(2) {
  
 #event h2, #event h3, #event h4 {
  	color: #666;
- 	font-family: TradeGothic, sans-serif;
+ 	font-family: Sanchez, sans-serif;
+ 	line-height: 1.5;
 }
  
 #event h2 {
 	margin-bottom: 3.4rem;
 
  	color: #555;
- 	font-family: serif;
- 	font-size: 4.6rem;
- 	font-style: italic;
+ 	font-family: "Playfair Display", serif;
+ 	font-size: 3.6rem;
  	text-transform: uppercase;
 }
  
 #event h3 {
 	display: inline-block;
-
 	margin: 1rem 0;
- 	border-bottom: 1px solid white;
+	
+	font-size: 1.9rem;
+	text-transform: uppercase;
  }
  
 #event h4 {
 	margin: 4.3rem 0 1rem;
+	
+	font-size: 1.7rem;
+	text-transform: uppercase;
 }
 
 #event .event-date, #event .event-location {
 	margin: 0;
 	
 	color: #555;
-	font-family: sans-serif;
-	font-size: 1.7rem;
-	line-height: 1.7;
+	font-family: Sanchez, sans-serif;
+	font-size: 1.5rem;
 }
 
-#event p {
- 	font-size: 1.9rem;
- 	line-height: 1.5;
-}
  
 #event p + p, #event ul + p {
- 	margin-top: 1.9rem;
+ 	margin-top: 3.5rem;
 }
 
 #event p a {
@@ -457,7 +458,7 @@ footer p:nth-of-type(2) {
 }
  
 #event .rsvp { 
-	padding-top: 4.7rem;
+	padding-top: 4rem;
 }
 
 #event .rsvp a {
@@ -465,7 +466,7 @@ footer p:nth-of-type(2) {
 	padding: 1rem;
 	
 	color: white;
-	font-family: sans-serif;
+	font-family: Sanchez, sans-serif;
 	text-decoration: none;
 }
 
