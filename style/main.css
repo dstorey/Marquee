@@ -406,7 +406,7 @@ footer .copyright a:hover {
   * ABOUT section
   */
 
-#about {
+#about, #news {
  	padding: 19rem;
  	background-color: white;
  	
@@ -543,16 +543,74 @@ footer .copyright a:hover {
 	background-color: #AFD0CA;
 	color: #666;
 }
+
+/*
+ * NEWS section
+ */
  
- /*
-  * JOIN section
-  */
+#news {
+	margin: 0;
+	padding: 13rem 19rem 20rem;
+	
+	background-color: #515957; 
+}
+
+#news h2 {
+	margin-bottom: 4rem;
+	
+	color: #333;
+	font-family: "Playfair display";
+	font-style: italic;
+	font-weight: normal;
+	font-size: 5.2rem;
+}
+
+#news h3 {
+	color: #aaa;
+	font-family: sanchez, sans-serif;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+#news .news-meta {
+	color: #aaa;
+	font-family: sanchez, sans-serif;
+	font-size: 1.5rem;	
+		
+}
+#news p {
+	margin-bottom: 1.7rem;
+	
+	color: #eee;
+	line-height: 1.7;
+}
+	
+#news a {
+	border-bottom: 1px solid #DA8A67;
+	padding-bottom: 3px;
+	
+	color: inherit;
+	text-decoration: none;
+	
+}
+
+#news a:hover {
+	color: #333;
+}
+ 
+/*
+ * JOIN section
+ */
   
 #join {
+	padding: 7.6rem 0;
+	
  	background-color: #515957; 
- 	padding: 5.6rem 0;
+ 	background:  -webkit-linear-gradient(rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, .7) 90%), url("../images/backgrounds/main.jpg") no-repeat bottom center #222;
+ 	background:  linear-gradient(rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, .7) 90%), url("../images/backgrounds/main.jpg") no-repeat bottom center #222;
+ 	background-attachment: fixed;	
 }
 
 #join .push  {
 	 margin: 0 auto;
- }
+}
