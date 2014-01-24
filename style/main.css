@@ -40,6 +40,9 @@ body {
  * Typography
  */
  
+main p {
+	max-width: 38em;
+}
 abbr { 
 	font-variant: small-caps; 
 	text-transform: lowercase; 
@@ -202,6 +205,7 @@ nav li:nth-of-type(3) {
  
 .hero-subtitle {
 	display: inline-block;
+	max-width: none;
  	
  	border-bottom: 3px double #DA8A67; 
  	margin: .5em 0;
@@ -301,10 +305,21 @@ footer p:nth-of-type(2), footer .copyright {
     line-height: 1.7;
 	
 }
+
 footer p:nth-of-type(2) {
 	margin-top: 5.1rem;
     padding-top: 2rem;
     border-top: 1px solid #333;
+}
+
+footer .copyright a {
+	border-bottom: 1px solid #333;
+	padding-bottom: 3px;
+}
+
+footer .copyright a:hover {
+	color: #EEE;
+	border-bottom-color: #DA8A67;
 }
 
 .social {
