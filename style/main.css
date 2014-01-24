@@ -13,7 +13,59 @@
 			light copper:	#DA8A67 (not used yet)
 			patina:			#639A8F
 			http://simple.wikipedia.org/wiki/Copper_(color)			
-*/ 
+
+  	Fonts:
+  	
+  		Body copy:
+  			primary:		Gentium
+  			secondary:		Sanchez
+  			
+  		Headings:
+  			primary: 		Playfair Display
+  			secondary 		Sanchez
+ */
+ 
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Playfair Display Black Italic'), local('PlayfairDisplay-BlackItalic'), url(http://themes.googleusercontent.com/static/fonts/playfairdisplay/v8/n7G4PqJvFP2Kubl0VBLDEJdn2vTjPB9XMnyp27gz3a6glnMp3_3A8V8Ai8YosRtX.woff) format('woff');
+}
+ 
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Playfair Display Black'), local('PlayfairDisplay-Black'), url(http://themes.googleusercontent.com/static/fonts/playfairdisplay/v8/UC3ZEjagJi85gF9qFaBgIFG5nCscAKpKP81nraB-v6E.woff) format('woff');
+}
+ 
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gentium Book Basic'), local('GentiumBookBasic'), url(http://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v4/IRFxB2matTxrjZt6a3FUnq6Rv-X66d7QWAwIQQ5u8Sc.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Gentium Book Basic Bold'), local('GentiumBookBasic-Bold'), url(http://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v4/T2vUYmWzlqUtgLYdlemGnbMeH342_rZq65bYQkKTmY2glnMp3_3A8V8Ai8YosRtX.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Gentium Book Basic Italic'), local('GentiumBookBasic-Italic'), url(http://themes.googleusercontent.com/static/fonts/gentiumbookbasic/v4/qHqW2lwKO8-uTfIkh8FsUW9ZVGYl7-DCiNGjac5stJT3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Sanchez';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sanchez'), local('Sanchez-Regular'), url(http://themes.googleusercontent.com/static/fonts/sanchez/v2/9T6om-IyqE2CuKLLQr0lcgLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
 
 /* 
  *	COMMON STYLES AND INITIAL SETUP
