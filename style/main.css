@@ -152,78 +152,109 @@ button.push a {
 
 /*
  *	PAGE HEADER
- */	
-	
-header { 
-    position: absolute;
-    width: 100%;
-    padding: 2rem 0;
-    
-    font-family: "Sanchez", futura, sans-serif;
+ */
+ 
+header {
+	font-family: "Sanchez", futura, sans-serif;
+	padding: 20px 0;
 }
 
 header h1 {
-    position: absolute;
-    left: 50%;
-    
-    /* Set width and height as px as img is bitmap */
-    width: 183px;
-    height: 60px;
-    margin-left: -91px; /* move replaced image to centre */
-    padding: 16px 0;
-    
-    /* Hide the text, and replace with an image */
-    font-size: 1em;
-    white-space: nowrap;
-    overflow: hidden;
-    text-indent: 100%;
-    
-    background: url("../images/logo/tmc-logo.png") no-repeat center;
+	/* Set width and height as px as img is bitmap */
+	width: 183px;
+	height: 60px;
+	
+	margin: 0 auto;
+	padding: 16px 0;
+	
+	text-align: center;
+
+	
+	/* Hide the text, and replace with an image */
+	font-size: 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 100%;
+	
+	background: url("../images/logo/tmc-logo.png") no-repeat center;
 }
 
 nav ul {
-    margin: 0 auto;
-    height: 92px; /* height of the H1 */
-    text-align: center;
+	margin: 0 auto;
+	text-align: center;
 }
 
 nav li {
-    display: inline-block;
-    width: 15%;
-    max-width: 152px; /* width of logo */
-    height: 100%;
-    padding: 0 15px;
+	display: inline-block;
+	width: 15%;
+	padding: 20px 15px;
 }
 
-nav li a {
-    display: inline-block;
-	
-	width: 100%;
-    margin: 1.9rem 0;
-    padding: 1rem 0;
-        
-    color: #DA8A67;
-    font-size: 1.8rem;
-	text-shadow: 2px 1px 0 rgba(102, 102, 102, .9);   
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
+nav li a {	
+	color: #DA8A67;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
 }
 
 nav li a:hover {	
-	padding-bottom: 2.7rem;
-	
+	padding-bottom: 10px;
 	border-bottom: 5px solid #DA8A67;
-	box-shadow: 0 2px rgba(102, 102, 102, .9);
 }
 
-/* Make space for the logo in the centre */
-nav li:nth-of-type(2) {
-    margin-right: 147px;
-}
+ 
+@media (min-width: 1060px) {
+	
+	header { 
+		position: absolute;
+		width: 100%;
+		padding: 2rem 0;
+	
+	}
 
-nav li:nth-of-type(3) {
-    margin-left: 147px;
+	header h1 {
+		position: absolute;
+		left: 50%;
+	
+		margin-left: -91px; /* move replaced image to centre */
+	}
+
+	nav ul {
+		height: 92px; /* height of the H1 */
+	}
+
+	nav li {
+		max-width: 152px; /* width of logo */
+		height: 100%;
+		padding: 0 15px;
+	}
+
+	nav li a {
+		display: inline-block;
+	
+		width: 100%;
+		margin: 1.9rem 0;
+		padding: 1rem 0;
+		
+		font-size: 1.8rem;
+		text-shadow: 2px 1px 0 rgba(102, 102, 102, .9);   
+	}
+
+	nav li a:hover {	
+		padding-bottom: 2.7rem;
+	
+		box-shadow: 0 2px rgba(102, 102, 102, .9);
+	}
+
+	/* Make space for the logo in the centre */
+	nav li:nth-of-type(2) {
+		margin-right: 147px;
+	}
+
+	nav li:nth-of-type(3) {
+		margin-left: 147px;
+	}
 }
 
 /*
