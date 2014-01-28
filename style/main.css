@@ -88,6 +88,16 @@ body {
 	font-size: 1.6rem;
 }
 
+main > section {
+	padding: 2em;
+}
+
+@media (min-width: 1060px) {
+	main > section {
+		padding: 19rem;
+	}
+}
+
 /*
  * Typography
  */
@@ -460,9 +470,9 @@ footer .copyright a:hover {
  /*
   * ABOUT section
   */
+  
 
 #about, #news {
- 	padding: 19rem;
  	background-color: white;
  	
  	font-size: 1.9rem;
@@ -507,9 +517,7 @@ footer .copyright a:hover {
   * EVENT section
   */
   
-#event {
- 	padding: 10em;
- 	
+#event { 	
  	background-color: #9faba8;	
  	color: white;
  	
@@ -605,7 +613,7 @@ footer .copyright a:hover {
  
 #news {
 	margin: 0;
-	padding: 13rem 19rem 20rem;
+	//padding: 13rem 19rem 20rem;
 	
 	background-color: #515957; 
 }
@@ -663,7 +671,12 @@ footer .copyright a:hover {
  	background-color: #515957; 
  	background:  -webkit-linear-gradient(rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, .7) 90%), url("../images/backgrounds/main.jpg") no-repeat bottom center #222;
  	background:  linear-gradient(rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, .7) 90%), url("../images/backgrounds/main.jpg") no-repeat bottom center #222;
- 	background-attachment: fixed;	
+}
+
+@media (min-width: 1060px) {
+	#join {
+		background-attachment: fixed;
+	}
 }
 
 #join .push  {
