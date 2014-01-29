@@ -130,6 +130,10 @@ section ul li::before {
   	line-height: 1.7;
 }
 
+section ul li ul li {
+	margin-left: 1.5em;
+}
+
 /*
  * CONTROLS: Push button
  */
@@ -599,6 +603,10 @@ footer .copyright a:hover {
 #event li:before {
  	color: #AFD0CA;
  	content: "◆";
+}
+#event li li:before {
+	color: #555;
+ 	content: "—";
 }
  
 #event .rsvp { 
